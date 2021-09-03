@@ -1,0 +1,39 @@
+{
+  "name": "arashStatic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "prod": "webpack --mode production --progress",
+    "dev": "webpack --watch --mode development --progress",
+    "clean": "rm -fr build/*"
+  },
+  "keywords": [],
+  "author": "arash hasanpour",
+  "license": "MIT",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "sass-mq": "^5.0.1",
+    "scss-lint": "0.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2"
+  }
+}
