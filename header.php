@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
+    <link rel="icon" href="<?php echo ARASH_THEME_URL ?>build/assets/images/Logo-farkoo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>خانه</title>
@@ -15,7 +16,7 @@
 
     </div>
     <div class="in-header">
-        <div class="logo"><a href="#"> <img src="<?php echo ARASH_THEME_URL ?>/build/assets/images/Logo-farkoo.png" alt=""> </a> </div>
+        <div class="logo"><a href="#"> <img src="<?php echo ARASH_THEME_URL; ?>/build/assets/images/Logo-farkoo.png" alt=""> </a> </div>
         <div id="nav-wrapper" class="nav-wrapper">
             <div class="nav-icon-wrapper mobile-hamburger">
                 <div id="nav-icon" class="nav-icon">
