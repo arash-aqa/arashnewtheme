@@ -6,7 +6,7 @@
 
 <div class="hero-wrapper">
     <div class="hero">
-        <img class="hero-bg" src="build/assets/images/hero-bg.jpg" alt="">
+        <img class="hero-bg" src="<?php echo ARASH_THEME_URL; ?>/build/assets/images/hero-bg.jpg" alt="">
         <div class="hero-text">با افتخار تولید کننده ی <span class="hero-text-ul">بهترین کیفیت</span> <span
                     class="hero-text-bold">شیشه و آینه</span> در ایران
         </div>
@@ -51,7 +51,6 @@
 <main>
 
 </main>
-<script src="build/js/homepage-style.js"></script>
 <?php
     get_footer();
     wp_footer();

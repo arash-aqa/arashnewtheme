@@ -7,17 +7,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="some test">
-      <change afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../anotherGit/a file.php" beforeDir="false" />
+    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="night edits">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homePage.php" beforeDir="false" afterPath="$PROJECT_DIR$/homePage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_ed25519.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_ed25519.pub.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_rsa.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_rsa10.pub" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/id_rsa10.pub.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/css/homepage-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/homepage-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/js/homepage-style.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/homepage-style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +25,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>C:\composer\composer</pharConfigPath>
+    <pharConfigPath>C:\composer\composer.json</pharConfigPath>
     <execution>
       <phar pharPath="C:\composer\composer.phar" interpreterId="257f328c-8c7c-4d6e-9812-d82a8c2fbdaa" />
     </execution>
@@ -40,6 +40,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="OPTIONS">
+      <set>
+        <option value="REBASE" />
+      </set>
+    </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="origin/make_wordpress_theme" />
+    <option name="OPTIONS">
+      <set>
+        <option value="ROOT" />
+      </set>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -47,6 +62,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -69,8 +85,8 @@
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7">
     <include_path>
+      <path value="$PROJECT_DIR$/../../../" />
       <path value="$PROJECT_DIR$/../../../php" />
-      <path value="$PROJECT_DIR$/../arashTheme" />
     </include_path>
   </component>
   <component name="ProjectId" id="1vgA315HNgT87WF9dfcYbxZKK8e" />
@@ -83,7 +99,7 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql&#10;mysql.8" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;mysql.8&#10;mariadb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -94,7 +110,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="E:/MySQL Datafiles/ibdata1" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Games" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -103,12 +119,13 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.stylelint" value="D:\xampp\htdocs\arashThemeStatic\node_modules\stylelint" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\PhpStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\arashTheme\wp-content\themes\arashThemeStatic" />
       <recent name="D:\xampp\htdocs\arashThemeStatic\src\assets\fonts\eleganticon" />
       <recent name="D:\xampp\htdocs\arashThemeStatic\src\assets\fonts\eleganticons" />
     </key>
@@ -126,7 +143,7 @@
       <command value="homePage.php (JavaScript...)" />
     </option>
   </component>
-  <component name="RunManager" selected="npm.clean">
+  <component name="RunManager" selected="JavaScript Debug.homePage.php">
     <configuration name="homePage.php" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/arashThemeStatic/homePage.php" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -237,7 +254,25 @@
       <workItem from="1630622949477" duration="4901000" />
       <workItem from="1630670637857" duration="2642000" />
       <workItem from="1630681580045" duration="3863000" />
-      <workItem from="1630707409806" duration="8292000" />
+      <workItem from="1630707409806" duration="9038000" />
+      <workItem from="1630752062018" duration="3743000" />
+      <workItem from="1630774677127" duration="1213000" />
+      <workItem from="1630795151594" duration="2070000" />
+      <workItem from="1630890638733" duration="602000" />
+      <workItem from="1630966358316" duration="595000" />
+      <workItem from="1631033222044" duration="2589000" />
+      <workItem from="1631208409638" duration="596000" />
+      <workItem from="1631219306107" duration="2297000" />
+      <workItem from="1631309866331" duration="13077000" />
+      <workItem from="1631359221556" duration="2963000" />
+      <workItem from="1631382402734" duration="585000" />
+      <workItem from="1631396661827" duration="9854000" />
+      <workItem from="1631729825271" duration="2615000" />
+      <workItem from="1631823064521" duration="726000" />
+      <workItem from="1631894566475" duration="4115000" />
+      <workItem from="1631965593125" duration="646000" />
+      <workItem from="1632047375190" duration="4012000" />
+      <workItem from="1632070288221" duration="6203000" />
     </task>
     <task id="LOCAL-00001" summary="some test">
       <created>1630711964485</created>
@@ -246,7 +281,21 @@
       <option name="project" value="LOCAL" />
       <updated>1630711964485</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delet composer">
+      <created>1630719944089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630719944089</updated>
+    </task>
+    <task id="LOCAL-00003" summary="night edits">
+      <created>1630754457972</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630754457972</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,10 +311,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some test" />
-    <option name="LAST_COMMIT_MESSAGE" value="some test" />
+    <MESSAGE value="delet composer" />
+    <MESSAGE value="night edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="night edits" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

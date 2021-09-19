@@ -1,14 +1,9 @@
 <!DOCTYPE html>
 <html lang="fa">
 <head>
-	<link rel="icon" href="build/assets/images/Logo-farkoo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="UTF-8">
 	<title>خانه</title>
-	<link rel="stylesheet" href="build/css/homepage-style.css">
-	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
-	<script src="jquery3.5.1.min.js"></script>
-
 </head>
 <body class="animated-gradient" dir="rtl">
 
@@ -20,7 +15,7 @@
 
     </div>
     <div class="in-header">
-        <div class="logo"><a href="#"><img src="build/assets/images/Logo-farkoo.png" alt=""></a></div>
+        <div class="logo"><a href="#"> <img src="<?php echo ARASH_THEME_URL ?>/build/assets/images/Logo-farkoo.png" alt=""> </a> </div>
         <div id="nav-wrapper" class="nav-wrapper">
             <div class="nav-icon-wrapper mobile-hamburger">
                 <div id="nav-icon" class="nav-icon">
