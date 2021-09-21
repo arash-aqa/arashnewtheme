@@ -1,9 +1,6 @@
 <?php
-    get_header();
-    wp_head();
+get_header();
 ?>
-
-
 <div class="hero-wrapper">
     <div class="hero">
         <img class="hero-bg" src="<?php echo ARASH_THEME_URL; ?>/build/assets/images/hero-bg.jpg" alt="">
@@ -51,7 +48,4 @@
 <main>
 
 </main>
-<?php
-    get_footer();
-    wp_footer();
-?>
+<?php get_footer(); ?>

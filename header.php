@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html  <?php language_attributes(); ?> >
 <head>
-    <link rel="icon" href="<?php echo ARASH_THEME_URL ?>build/assets/images/Logo-farkoo.png">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <link rel="icon" href="<?php echo ARASH_THEME_URL ?>/build/assets/images/Logo-farkoo.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta charset="UTF-8">
 	<title>خانه</title>
+    <?php wp_head(); ?>
 </head>
 <body class="animated-gradient" dir="rtl">
 

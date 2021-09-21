@@ -7,10 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="make wordpress theme ok">
+    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="minor edits">
+      <change afterPath="$PROJECT_DIR$/editor-style-rtl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +30,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -104,7 +108,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Games" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
@@ -266,7 +270,9 @@
       <workItem from="1631965593125" duration="646000" />
       <workItem from="1632047375190" duration="4012000" />
       <workItem from="1632070288221" duration="6962000" />
-      <workItem from="1632089669250" duration="1257000" />
+      <workItem from="1632089669250" duration="3123000" />
+      <workItem from="1632142878170" duration="2218000" />
+      <workItem from="1632178203927" duration="5500000" />
     </task>
     <task id="LOCAL-00001" summary="some test">
       <created>1630711964485</created>
@@ -296,7 +302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632080182259</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="minor edits">
+      <created>1632092539296</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1632092539296</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +332,8 @@
     <MESSAGE value="delet composer" />
     <MESSAGE value="night edits" />
     <MESSAGE value="make wordpress theme ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="make wordpress theme ok" />
+    <MESSAGE value="minor edits" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor edits" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
