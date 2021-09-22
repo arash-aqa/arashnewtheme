@@ -7,14 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="minor edits">
-      <change afterPath="$PROJECT_DIR$/editor-style-rtl.css" afterDir="false" />
+    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="add theme supports and editor style in function.php">
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/classes/Assets.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/classes/CoreThemeArash.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/classes/ThemeSupport.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/helpers/traits/singleton.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editor-style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/editor-style-rtl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/single.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -272,7 +273,11 @@
       <workItem from="1632070288221" duration="6962000" />
       <workItem from="1632089669250" duration="3123000" />
       <workItem from="1632142878170" duration="2218000" />
-      <workItem from="1632178203927" duration="5500000" />
+      <workItem from="1632178203927" duration="6278000" />
+      <workItem from="1632244861136" duration="3458000" />
+      <workItem from="1632322744138" duration="3094000" />
+      <workItem from="1632338467272" duration="4174000" />
+      <workItem from="1632348754605" duration="3977000" />
     </task>
     <task id="LOCAL-00001" summary="some test">
       <created>1630711964485</created>
@@ -309,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632092539296</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add theme supports and editor style in function.php">
+      <created>1632184552052</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1632184552052</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -333,7 +345,8 @@
     <MESSAGE value="night edits" />
     <MESSAGE value="make wordpress theme ok" />
     <MESSAGE value="minor edits" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor edits" />
+    <MESSAGE value="add theme supports and editor style in function.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="add theme supports and editor style in function.php" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

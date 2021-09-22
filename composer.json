@@ -1,0 +1,13 @@
+{
+  "author":
+  {
+    "name": "Arash Hasanpour",
+    "email": "arashaqa@gmail.com",
+    "role": "Developer"
+  },
+  "autoload": {
+    "psr-4": {
+      "ArashTheme\\": ""
+    }
+  }
+}
