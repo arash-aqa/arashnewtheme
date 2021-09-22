@@ -7,15 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="add theme supports and editor style in function.php">
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/classes/Assets.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/classes/CoreThemeArash.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/classes/ThemeSupport.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inc/helpers/traits/singleton.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editor-style-rtl.css" beforeDir="false" afterPath="$PROJECT_DIR$/editor-style-rtl.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="make OOP and run composer autoload psr-4">
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +74,7 @@
     <setting file="file://$PROJECT_DIR$/src/homepage-style.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/homePage.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/homepage-style.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/_base.scss" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JsBowerSettings">
@@ -120,6 +121,9 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\PhpStorm 2021.1.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -277,7 +281,7 @@
       <workItem from="1632244861136" duration="3458000" />
       <workItem from="1632322744138" duration="3094000" />
       <workItem from="1632338467272" duration="4174000" />
-      <workItem from="1632348754605" duration="3977000" />
+      <workItem from="1632348754605" duration="4332000" />
     </task>
     <task id="LOCAL-00001" summary="some test">
       <created>1630711964485</created>
@@ -321,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632184552052</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="make OOP and run composer autoload psr-4">
+      <created>1632353994880</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1632353994880</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +357,8 @@
     <MESSAGE value="make wordpress theme ok" />
     <MESSAGE value="minor edits" />
     <MESSAGE value="add theme supports and editor style in function.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="add theme supports and editor style in function.php" />
+    <MESSAGE value="make OOP and run composer autoload psr-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="make OOP and run composer autoload psr-4" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
