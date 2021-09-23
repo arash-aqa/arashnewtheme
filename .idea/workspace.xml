@@ -7,7 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="tiny test" />
+    <list default="true" id="c65c7b0d-78de-45a6-ad3f-819a59ea3c8f" name="Default Changelist" comment="test2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -337,7 +337,28 @@
       <option name="project" value="LOCAL" />
       <updated>1632360794089</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="test2">
+      <created>1632360943114</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1632360943114</updated>
+    </task>
+    <task id="LOCAL-00011" summary="test2">
+      <created>1632361035661</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1632361035661</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test2">
+      <created>1632361135687</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1632361135687</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +385,8 @@
     <MESSAGE value="add theme supports and editor style in function.php" />
     <MESSAGE value="make OOP and run composer autoload psr-4" />
     <MESSAGE value="tiny test" />
-    <option name="LAST_COMMIT_MESSAGE" value="tiny test" />
+    <MESSAGE value="test2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
