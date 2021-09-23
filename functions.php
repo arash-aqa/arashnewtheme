@@ -19,7 +19,7 @@ if(! defined ( ARASH_THEME_DIR)) {
 require_once(ARASH_THEME_DIR.'/vendor/autoload.php');
 
 /*
- *
+ * instantiate core class
  */
 function arash_theme_get_instance() {
 	\ArashTheme\inc\classes\CoreThemeArash::get_instance ();
