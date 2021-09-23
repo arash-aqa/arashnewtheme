@@ -9,7 +9,7 @@ if (! defined ( ARASH_THEME_URL)) {
 	define ( ARASH_THEME_URL, get_template_directory_uri () );
 }
 
-// Holds the themes path  ( bedune slashe akhar )
+// Holds the themes path  ( bedune slashe akhar . . . )
 if(! defined ( ARASH_THEME_DIR)) {
 	define ( ARASH_THEME_DIR, get_template_directory () );
 }
