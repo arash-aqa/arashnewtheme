@@ -575,6 +575,43 @@ img {
   grid-area: nav;
 }
 
+/*
+  show posts in home page in a row in categoris
+  -------------------------------------------------------------------
+ */
+.glass-table-top__inner {
+  display: flex;
+  flex-direction: row;
+}
+.glass-table-top__name {
+  -ms-flex: 0 0 8.333%;
+  -webkit-box-flex: 0;
+  flex: 0 0 8.333%;
+  max-width: 8.333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass-table-top__posts-Wrapper {
+  -ms-flex: 0 0 91.667%;
+  -webkit-box-flex: 0;
+  flex: 0 0 91.667%;
+  max-width: 91.667%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.glass-table-top__post {
+  -ms-flex: 0 0 16.667%;
+  -webkit-box-flex: 0;
+  flex: 0 0 16.667%;
+  max-width: 16.667%;
+  display: flex;
+  flex-direction: column;
+}
+
 /*************  MOBILE SPECIAL STYLE ****************/
 @media (max-width: 46.24em) {
   .hero-bg {

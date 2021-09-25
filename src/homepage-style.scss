@@ -257,7 +257,35 @@ header, .in-header , .nav , .nav-wrapper{
     grid-area: nav;
   }
 }
-
+/*
+  show posts in home page in a row in categoris
+  -------------------------------------------------------------------
+ */
+.glass-table-top{
+  &__inner {
+    display: flex;
+    flex-direction: row;
+  }
+  &__name{
+    @include col-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__posts-Wrapper {
+    @include col-11;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+  }
+  &__post{
+    @include col-2;
+    display:flex;
+    flex-direction: column;
+  }
+}
 
 /*************  MOBILE SPECIAL STYLE ****************/
 //noinspection ALL

@@ -35,8 +35,25 @@ get_header();
         <div class="glass-table-top">
             <div class="glass-table-top__inner">
                 <div class="glass-table-top__name">شیشه رومیزی</div>
-                <div class="glass-table-top__posts">
-
+                <div class="glass-table-top__posts-Wrapper">
+                    <?php
+                    if (have_posts ()){
+                        while (have_posts ()) : the_post ();
+                        ?>
+                            <div class="glass-table-top__post">
+                                <h3 class="glass-table-top__post-header">
+                                    <?php the_title () ?>
+                                </h3>
+                                <div class="glass-table-top__post-excerpt">
+                                    <?php
+                                       echo wp_html_excerpt( get_the_excerpt( $post_ID ), 100, '[...]' );
+                                    ?>
+                                </div>
+                            </div>
+                        <?php
+                        endwhile;
+                    }
+                    ?>
                 </div>
             </div>
         </div>
