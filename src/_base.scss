@@ -179,11 +179,31 @@ $primary-color: #0072ff !default;
   padding-left: 15px;
   width: 100%;
 }
+@mixin center {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+@mixin content-wrapper {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
 .bold{
   font-weight: 700;
 }
 .underline{
-  text-decoration: underline;
+  //text-decoration: underline;
+  border-bottom: 0.0625em solid currentColor;
 }
 
 html {
@@ -213,6 +233,7 @@ body {
 }
 
 body {
+  direction: rtl;
   /*Set basic font configuration*/
   font-family: IRANSans, Arial, sans-serif;
   /*Let absolutely position the element and position it according to the body*/
@@ -323,6 +344,10 @@ table {
  * Remove the default borders of some elements in the browser
  * Other tags such as acronym, fieldset… are not very commonly used, so they will not be listed; if they are used in the project, they can be written separately
  */
+
+img {
+  max-width: 100%;
+}
 
 img,
 input,

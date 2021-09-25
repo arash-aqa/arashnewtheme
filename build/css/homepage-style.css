@@ -68,7 +68,7 @@
 }
 
 .underline {
-  text-decoration: underline;
+  border-bottom: 0.0625em solid currentColor;
 }
 
 html {
@@ -98,6 +98,7 @@ body {
 }
 
 body {
+  direction: rtl;
   /*Set basic font configuration*/
   font-family: IRANSans, Arial, sans-serif;
   /*Let absolutely position the element and position it according to the body*/
@@ -205,6 +206,10 @@ table {
  * Remove the default borders of some elements in the browser
  * Other tags such as acronym, fieldset… are not very commonly used, so they will not be listed; if they are used in the project, they can be written separately
  */
+img {
+  max-width: 100%;
+}
+
 img,
 input,
 button,
@@ -365,35 +370,8 @@ template {
   box-sizing: inherit;
 }
 
-/*@mixin container {
-  @include mq($from: 0px, $until: mobile) {
-    width: 100%;
-  }
-  @include mq($from: mobile, $until: tablet) {
-    width: 100%;
-  }
-  @include mq($from: tablet, $until: desktop) {
-    width: 90%;
-  }
-  @include mq($from: desktop, $until: wide) {
-    width: 90%;
-  }
-  @include mq($from: wide) {
-    width: 95%;
-  }
-  margin-left: auto;
-  margin-right: auto;
-}*/
-/******** ALL DEVISES STYLE ************/
-body {
-  direction: rtl;
-  height: 2000px;
-}
-
-img {
-  max-width: 100%;
-}
-
+/* TOP HEADER SECTION
+--------------------------------------------------- */
 .top-header {
   background-color: #4B4B4B;
   color: #F9F9F9;
@@ -423,128 +401,6 @@ img {
     display: none;
   }
 }
-header, .in-header, .nav, .nav-wrapper {
-  z-index: 20;
-}
-
-.hero {
-  position: relative;
-}
-
-img {
-  width: 100%;
-}
-
-.hero-bg {
-  position: relative;
-  top: -66px;
-  z-index: -1;
-}
-
-.hero-text {
-  position: absolute;
-  top: 18px;
-  margin-right: 6%;
-  font-weight: 300;
-  font-size: 1.6em;
-  z-index: 1;
-}
-.hero-text::before {
-  content: " ";
-  background: url(../assets/images/abstract1.png) no-repeat center;
-  position: absolute;
-  width: 262px;
-  height: 263px;
-  top: 178px;
-  right: 42px;
-  z-index: -10;
-}
-.hero-text .hero-text-ul {
-  border-bottom: 2px solid #333;
-}
-.hero-text .hero-text-bold {
-  font-weight: 600;
-}
-
-.hero-main-text {
-  position: absolute;
-  max-width: 370px;
-  width: 48%;
-  padding: 5px;
-  right: 6%;
-  top: 96px;
-  background-color: rgba(255, 255, 255, 0.55);
-  border-radius: 10px;
-}
-.hero-main-text::before {
-  content: " ";
-  background: url(../assets/images/abstract2.png) no-repeat center;
-  position: absolute;
-  width: 212px;
-  height: 363px;
-  top: -190px;
-  right: -10vw;
-  z-index: -10;
-}
-
-.hero-button-group {
-  position: absolute;
-  top: 265px;
-  right: 6%;
-  z-index: 5;
-}
-
-.button ~ .button {
-  margin-right: 10px;
-}
-
-.hero-sub {
-  display: grid;
-  justify-content: center;
-  position: relative;
-  top: 150px;
-}
-
-.hero-sub-container {
-  position: relative;
-}
-
-.hero-sub-button-icon::before {
-  color: forestgreen;
-  font-size: 1.5em;
-  transform: translateY(3px);
-  display: inline-block;
-  margin-left: 8px;
-}
-
-.posts-wrapper {
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%;
-}
-
-.glass-table-top {
-  background-color: #848484;
-}
-.glass-table-top__name {
-  -ms-flex: 0 0 16.667%;
-  -webkit-box-flex: 0;
-  flex: 0 0 16.667%;
-  max-width: 16.667%;
-  background-color: #0072ff;
-}
-.glass-table-top__posts {
-  -ms-flex: 0 0 83.333%;
-  -webkit-box-flex: 0;
-  flex: 0 0 83.333%;
-  max-width: 83.333%;
-  background-color: #86deb7;
-  width: 100%;
-}
-
-/*************  GRID SYSTEM  *************/
 .in-header {
   padding-inline: 10px;
   direction: rtl;
@@ -575,113 +431,8 @@ img {
   grid-area: nav;
 }
 
-/*
-  show posts in home page in a row in categoris
-  -------------------------------------------------------------------
- */
-.glass-table-top__inner {
-  display: flex;
-  flex-direction: row;
-}
-.glass-table-top__name {
-  -ms-flex: 0 0 8.333%;
-  -webkit-box-flex: 0;
-  flex: 0 0 8.333%;
-  max-width: 8.333%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.glass-table-top__posts-Wrapper {
-  -ms-flex: 0 0 91.667%;
-  -webkit-box-flex: 0;
-  flex: 0 0 91.667%;
-  max-width: 91.667%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: space-around;
-}
-.glass-table-top__post {
-  -ms-flex: 0 0 16.667%;
-  -webkit-box-flex: 0;
-  flex: 0 0 16.667%;
-  max-width: 16.667%;
-  display: flex;
-  flex-direction: column;
-}
-
-/*************  MOBILE SPECIAL STYLE ****************/
-@media (max-width: 46.24em) {
-  .hero-bg {
-    display: none;
-  }
-
-  .hero-text {
-    display: block;
-    line-height: 2.1em;
-    position: relative;
-    top: 40px;
-    font-weight: 600;
-    font-size: 18px;
-    padding-inline: 2em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-  }
-  .hero-text::after {
-    content: " ";
-    background: url(../assets/images/abstract3.png) no-repeat center;
-    position: absolute;
-    width: 157px;
-    height: 306px;
-    top: -65px;
-    left: 0;
-    z-index: -100;
-  }
-  .hero-text .hero-text-bold {
-    font-weight: 900;
-  }
-
-  .hero-main-text {
-    top: 60px;
-    font-size: 15px;
-    position: relative;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    right: unset;
-    z-index: 10;
-  }
-
-  .hero-button-group {
-    top: 90px;
-    right: unset;
-    position: relative;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .hero-button-group .button {
-    padding-right: 1.5em;
-    padding-left: 1.5em;
-    line-height: 2.5em;
-    display: inline-block;
-    position: relative;
-  }
-
-  .hero-sub-button {
-    line-height: 3rem;
-    font-size: 15px;
-    padding-inline: 1em;
-    margin: 0 !important;
-  }
-
-  .hero-wrapper {
-    margin-bottom: 190px;
-  }
-}
+/* MOBILE AND TABLET HAMBURGER AND NAV
+-----------------------------------------------------*/
 @media (max-width: 61.24em) {
   /******** MOBILE NAV ICON HAMBURGER *********/
   .in-header .nav {
@@ -871,24 +622,10 @@ img {
     background-color: rgba(255, 255, 255, 0.15);
   }
 }
-/*************  TABLET SPECIAL STYLE ****************/
-@media (min-width: 46.25em) and (max-width: 61.24em) {
-  .hero-sub {
-    display: grid;
-    justify-items: center;
-  }
-
-  .hero-sub-container {
-    position: relative;
-    top: -200px;
-  }
-
-  .hero-main-text::before {
-    right: -6vw;
-    z-index: 0;
-  }
+header, .in-header, .nav, .nav-wrapper {
+  z-index: 20;
 }
-/*********** DESKTOP SPECIAL STYLE **************/
+
 @media (min-width: 61.25em) {
   /******** DESKTOP MENU STYLE ********/
   .li-child-icon {
@@ -964,19 +701,67 @@ img {
     color: #F9F9F9;
     border-radius: 5px;
   }
-
-  .hero-sub {
-    position: relative;
-    top: -15vw;
-    right: 60px;
-  }
-
-  .hero-main-text::before {
-    right: -6vw;
-    z-index: 0;
-  }
-
-  .hero-wrapper {
-    margin-bottom: -135px;
-  }
 }
+/******** ALL DEVISES STYLE ************/
+body {
+  height: 2000px;
+}
+
+.button ~ .button {
+  margin-right: 10px;
+}
+
+.posts-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+}
+
+/*
+  show posts in home page in a row in categoris
+  -------------------------------------------------------------------
+ */
+.glass-table-top {
+  background-color: #848484;
+}
+.glass-table-top__inner {
+  display: flex;
+  flex-direction: row;
+}
+.glass-table-top__name {
+  -ms-flex: 0 0 8.333%;
+  -webkit-box-flex: 0;
+  flex: 0 0 8.333%;
+  max-width: 8.333%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.glass-table-top__posts-Wrapper {
+  -ms-flex: 0 0 91.667%;
+  -webkit-box-flex: 0;
+  flex: 0 0 91.667%;
+  max-width: 91.667%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+}
+.glass-table-top__post {
+  -ms-flex: 0 0 16.667%;
+  -webkit-box-flex: 0;
+  flex: 0 0 16.667%;
+  max-width: 16.667%;
+  display: flex;
+  flex-direction: column;
+}
+
+/*************  MOBILE SPECIAL STYLE ***************
+--------------------------------------------------------------*/
+/*************  TABLET SPECIAL STYLE ***************
+--------------------------------------------------------------*/
+/*********** DESKTOP SPECIAL STYLE *************
+--------------------------------------------------------------*/
