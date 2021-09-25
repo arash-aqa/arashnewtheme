@@ -702,15 +702,10 @@ header, .in-header, .nav, .nav-wrapper {
     border-radius: 5px;
   }
 }
-/******** ALL DEVISES STYLE ************/
-body {
-  height: 2000px;
-}
-
-.button ~ .button {
-  margin-right: 10px;
-}
-
+/*
+  show posts in home page in a row in categoris
+  -------------------------------------------------------------------
+ */
 .posts-wrapper {
   margin-right: auto;
   margin-left: auto;
@@ -719,10 +714,6 @@ body {
   width: 100%;
 }
 
-/*
-  show posts in home page in a row in categoris
-  -------------------------------------------------------------------
- */
 .glass-table-top {
   background-color: #848484;
 }
@@ -757,6 +748,15 @@ body {
   max-width: 16.667%;
   display: flex;
   flex-direction: column;
+}
+
+/******** ALL DEVISES STYLE ************/
+body {
+  height: 2000px;
+}
+
+.button ~ .button {
+  margin-right: 10px;
 }
 
 /*************  MOBILE SPECIAL STYLE ***************
