@@ -24,11 +24,17 @@ class Assets {
 
 	public function register_styles(){
 		wp_register_style ( 'front-css', ARASH_THEME_URL.'/build/css/homepage-style.css' , '', filemtime ( ARASH_THEME_DIR.'/build/css/homepage-style.css'), 'all' );
+		wp_register_style ( 'carousel-css', ARASH_THEME_URL.'/build/css/carousel.css' , '', filemtime ( ARASH_THEME_DIR.'/build/css/carousel.css'), 'all' );
+
 		wp_enqueue_style ('front-css' );
+		wp_enqueue_style ('carousel-css' );
 	}
 
 	public function register_scripts(){
 		wp_register_script ( 'front-js', ARASH_THEME_URL.'/build/js/homepage-style.js' , ['jquery'] ,filemtime ( ARASH_THEME_DIR.'/build/js/homepage-style.js'), true);
+		wp_register_script ( 'carousel-js', ARASH_THEME_URL.'/build/js/carousel.js' ,[] ,filemtime ( ARASH_THEME_DIR.'/build/js/carousel.js'), true);
+
 		wp_enqueue_script ( 'front-js');
+		wp_enqueue_script ( 'carousel-js');
 	}
 }

@@ -21,6 +21,7 @@ const plugins = () => [
 ]
 const entry = {
     'homepage-style': SRC_DIR + '/homepage-style.js',
+    'carousel': SRC_DIR + '/assets/carousel/carousel.esm.js'
 }
 const output = {
     path: DIR + '/build',
@@ -53,7 +54,7 @@ module.exports = {
                 },
             },
             {
-                test: /\.scss$/,
+                test: /\.(scss$|css)/,
                 exclude: /node_modules/,
                 use: [
                     MiniCssExtractPlugin.loader,

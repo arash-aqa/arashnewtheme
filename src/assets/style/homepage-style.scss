@@ -1,0 +1,100 @@
+@use "base" as *;
+/////// mq setting
+$mq-responsive: true;
+$mq-breakpoints: (
+        mobile: 320px,
+        tablet: 740px,
+        desktop: 980px,
+        wide: 1300px,
+  // Tweak points
+        desktopAd: 810px,
+        mobileLandscape: 480px);
+//$mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
+@import '~sass-mq';
+@import "top-header";
+@import "NAV";
+@import "post-in-front-page";
+
+
+/******** ALL DEVISES STYLE ************/
+
+body {
+  height: 2000px;
+}
+
+
+.hero{
+ @include container;
+  background: url(../images/abstract2.png) right 0 top 30px no-repeat,
+              url(../images/abstract1.png) right 35% top 100% no-repeat;
+  z-index: -1;
+  &__main-header {
+    text-align: center;
+    margin-block: 40px;
+  }
+  &__main-text{
+    text-align: justify;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 0.55);
+    border-radius: 10px;
+  }
+  &__button-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .button:nth-of-type(1){
+      margin-left: 10px;
+    }
+  }
+  &__sub-container{
+    @include container;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .button{
+      line-height:4rem;
+      width:100%;
+      box-shadow: 0 5px 30px rgb(70 72 77 / 16%);
+      margin-top: 15px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 1);
+      border-radius: 10px;
+    }
+    .button:nth-of-type(1){
+      margin-top: 40px;
+    }
+  }
+  &__sub-button-icon{
+    color: forestgreen;
+    font-size: 1.5em;
+    transform: translateY(3px);
+    display: inline-block;
+    margin-left: 8px;
+  }
+}
+
+
+
+/*************  MOBILE SPECIAL STYLE ***************
+--------------------------------------------------------------*/
+//noinspection ALL
+@include mq($until: tablet) {
+
+}
+
+
+/*************  TABLET SPECIAL STYLE ***************
+--------------------------------------------------------------*/
+@include mq($from: tablet, $until: desktop) {
+
+}
+
+/*********** DESKTOP SPECIAL STYLE *************
+--------------------------------------------------------------*/
+@include mq($from: 980px) {
+
+}
+
+
+

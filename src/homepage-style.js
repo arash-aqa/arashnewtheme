@@ -1,4 +1,4 @@
-import './homepage-style.scss';
+import './assets/style/homepage-style.scss';
 
 /// for page js
 // let navicon = document.querySelector("#nav-icon");
